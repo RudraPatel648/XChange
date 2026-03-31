@@ -139,9 +139,7 @@ main .about--secondary {
 }
 
 .about--secondary article{
-    height: 400px;
     width: 550px;
-    margin-top: 50px;
 }
 
 .about--secondary article h1{
