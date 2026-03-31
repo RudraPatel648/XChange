@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+main .about__hero,
+main .about--primary,
+main .about--secondary {
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.about__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__hero img {
+    height: 250px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+.about__hero p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #241f5c;
+    margin-bottom: 10px;
+}
+
+.about__hero h6 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: 500;
+    width: 800px;
+    text-align: center;
+}
+
+.about--primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about--primary h1{
+    color: #241f5c;
+    font-weight: 600;
+}
+
+.about__primary--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.15s;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #1b2d5049;
+}
+
+.card__container:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card__profile {
+    width: 280px;
+    background-color: #ffffff;
+    color: #111;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.profile__image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile__name {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.profile__role {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.profile__description {
+    font-size: 13px;
+    color: #4b5563;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.profile__button {
+    background-color: #2563eb;
+    /* strong blue */
+    color: #fff;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.profile__button:hover {
+    background-color: #1d4ed8;
+}
+
+.about--secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.about--secondary img{
+    height: 400px;
+    width: auto;
+}
+
+.about--secondary article{
+    height: 400px;
+    width: 550px;
+    margin-top: 50px;
+}
+
+.about--secondary article h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #241f5c;
+}
+
+.about--secondary article p{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.815);
+}
