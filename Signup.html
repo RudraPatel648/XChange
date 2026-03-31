@@ -10,7 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./Style/signin.css">
+    <link rel="stylesheet" href="./Style/signup.css">
     <link rel="stylesheet" href="./Style/header.css">
     <link rel="stylesheet" href="./Style/footer.css">
     <title>XChange</title>
@@ -44,27 +44,37 @@
         </div>
     </header>
 
-    <div class="signin__container">
-        <div class="signin__card">
+    <div class="signup__container">
+        <div class="signup__card">
 
-            <h2 class="signin__title">Sign In</h2>
-            <p class="signin__subtitle">Welcome back to Xchange</p>
+            <h2 class="signup__title">Sign Up</h2>
+            <p class="signup__subtitle">Create your account on Xchange</p>
 
-            <div class="signin__input--group">
-                <label class="signin__label">Email</label>
-                <input type="email" class="signin__input" placeholder="Enter your email">
+            <div class="signup__input--group">
+                <label class="signup__label">Full Name</label>
+                <input type="text" class="signup__input" placeholder="Enter your name">
             </div>
 
-            <div class="signin__input--group">
-                <label class="signin__label">Password</label>
-                <input type="password" class="signin__input" placeholder="Enter your password">
+            <div class="signup__input--group">
+                <label class="signup__label">Email</label>
+                <input type="email" class="signup__input" placeholder="Enter your email">
             </div>
 
-            <button class="signin__button">Sign In</button>
+            <div class="signup__input--group">
+                <label class="signup__label">Password</label>
+                <input type="password" class="signup__input" placeholder="Create a password">
+            </div>
 
-            <div class="signin__footer">
-                Don’t have an account?
-                <a href="./Signup.html" class="signin__link">Sign Up</a>
+            <div class="signup__input--group">
+                <label class="signup__label">Confirm Password</label>
+                <input type="password" class="signup__input" placeholder="Confirm your password">
+            </div>
+
+            <button class="signup__button">Sign Up</button>
+
+            <div class="signup__footer">
+                Already have an account?
+                <a href="./Signin.html" class="signup__link">Sign In</a>
             </div>
 
         </div>
